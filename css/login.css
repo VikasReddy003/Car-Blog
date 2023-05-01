@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+html{
+    transition:backgroundImage 10s;
+}
+body
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(75deg, rgb(193,0,97) ,purple);
+}
+#outterCont{
+    width: 70%;
+    height: 75vh;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 3px 3px rgba(225, 196, 155, 0.53);
+}
+#innerCont{
+    width: 36vw;
+    height: 55vh;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    transition: 3s;
+}
+#loginHeading{
+    position: relative;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 14vw;
+    color:rgb(7, 65, 240);
+    font-weight: bold;
+}
+.input{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 450px;
+    height: 40px;
+    border-radius: 100px;
+    text-indent: 15px;
+    font-size: 20px;
+    outline: none;
+    font-weight: bold;
+    background-color: transparent;
+    border-color: black;
+}
+#passValid{
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+#loginButt{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: yellowgreen;
+    margin-left: 180px;
+    border-radius: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 3px 3px 3px black;
+    transition: transform 1s;
+}
+#loginButt:hover{
+    transform: scale(1.1);
+}
+#inputDiv{
+    position: relative;
+}
+#passwordImg{
+    width: 30px;
+    position: absolute;
+    top: 37px;
+    right: 58px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#lastPara{
+    text-align: center;
+    margin-top: 15px;
+}
